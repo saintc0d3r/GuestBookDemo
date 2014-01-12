@@ -1,0 +1,41 @@
+body {
+    padding-top: 80px;
+}
+
+h1 {
+margin-bottom: 30px
+}
+
+.socials {
+    padding: 10px;
+}
+
+.carousel-control .icon-prev, .carousel-control .icon-next {
+    font-size: 100px;
+    position: absolute;
+    top: 200px;
+}
+
+.carousel-inner .item .carousel-caption {
+    position: absolute;    
+    top: 200px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 400px;
+}
+
+.navbar {
+    margin-bottom:0;
+}
+
+.navbar-header>a{
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.navbar-nav>li>a{
+    line-height: 50px;
+    font-size: 16px;
+}

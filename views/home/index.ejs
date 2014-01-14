@@ -20,21 +20,13 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Socials <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li class="socials">
-                            <div class="g-plusone" data-annotation="inline" data-width="300"></div>
-                            <script type="text/javascript">
-                              (function() {
-                                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-                                po.src = 'https://apis.google.com/js/platform.js';
-                                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-                              })();
-                            </script>
+                            <%- partial("../partials/socials/g-plusone") %>
                         </li>
                         <li class="socials">
-                            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                            <%- partial("../partials/socials/fb-like") %>
                         </li>
                         <li class="socials">
-                            <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
-                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>                                    
+                            <%- partial("../partials/socials/tweet-button") %>
                         </li>
                     </ul>
                 </li>

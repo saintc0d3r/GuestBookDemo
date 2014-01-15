@@ -1,40 +1,3 @@
-<!-- Navigation menu -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container">
-        <!-- navigation menu header -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsible-menu">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="/images/guest_book_24x24.png"></a>
-            <a class="navbar-brand" href="#">Guest book demo</a>
-        </div>
-        
-        <div class="collapse navbar-collapse" id="collapsible-menu">
-            <ul class="nav navbar-nav">
-                <li><a href="#">Try it</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Socials <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li class="socials">
-                            <%- partial("../partials/socials/g-plusone") %>
-                        </li>
-                        <li class="socials">
-                            <%- partial("../partials/socials/fb-like") %>
-                        </li>
-                        <li class="socials">
-                            <%- partial("../partials/socials/tweet-button") %>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
 <!-- Carousel -->
 <div id="main-carousel" class="carousel slide">
     <!-- indicators -->
@@ -127,11 +90,10 @@
             <p>
                 <img src="/images/koding_logo.jpg">
             </p>
-        </div>
-        
+        </div>        
     </div>
-    <hr>
-    <footer>
-        <p>Copyright &copy; 2013-14 by Xtremecode.asia</p>
-    </footer>
+    <hr>    
+    <!-- Render footer -->
+    <%- partial("../partials/footer.ejs") %>
+
 </div>

@@ -36,7 +36,7 @@ module.exports.routes = {
     controller: 'HomeController'
   },
 
-  'get /guestbook': {
+  '/guestbook': {
     controller: 'HomeController',
     action: 'guestbook'
   }

@@ -5,6 +5,10 @@
   HomeController = {
     index: function(req, res) {
       return res.view();
+    },
+
+    guestbook: function(req, res){
+    	return res.view();
     }
   };
 

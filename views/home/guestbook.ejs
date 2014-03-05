@@ -16,12 +16,12 @@
 	<!-- Render the list view -->
 	<div id="guest-list-view" class="row well">
         <% for(var i = 0;i<guestbook_items.length;i++) {%>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <img class="img-responsive" src="/images/anonymous.jpg"> 
+                    <div class="col-lg-1">
+                        <img class="img-responsive" src="<%= guestbook_items[i].thumbNail %>"> 
                     </div>
-                    <div class="col-lg-8">
+                    <div class="col-lg-11">
                         <div class="row">
                             <div class="col-lg-7">
                                 <%= guestbook_items[i].name %> says
